@@ -1,0 +1,114 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+body{
+  padding-top: 60px;
+  padding-left: 80px;
+  background-color: #2A2A2A;
+}
+h1{
+  color: #bfefff;
+}
+
+h3{
+  color: #A9A9A9;
+}
+
+p{
+  color: #d3d3d3;
+}
+
+li{
+  font-weight: bold;
+  color: black;
+}
+/* divboxes */
+
+#divbox1{
+  padding-top: 40px;
+  padding-right: 10px;
+
+}
+#posterimagedesc{
+  border-style:double;
+  border-color: purple;
+  height: 116px;
+}
+
+
+#posterimage{
+  background-image: url('/assets/posterpic.jpg');
+  height:116px;
+  width: 100px;
+  background-size:contain;
+  border-style:double;
+  border-color: purple;
+}
+
+#poemimage{
+  background-image: url('/assets/poempic.jpg');
+  height:116px;
+  width: 100px;
+  background-size:contain;
+  border-style:double;
+  border-color: purple;
+}
+
+#childrenimage{
+  background-image: url('/assets/childrenpic.jpg');
+  height:116px;
+  width: 100px;
+  background-size:cover;
+  border-style:double;
+  border-color: purple;
+}
+
+#postcardimage{
+  background-image: url('/assets/postcardpic.jpg');
+  height:116px;
+  width: 100px;
+  background-size:cover;
+  border-style:double;
+  border-color: purple;
+}
+/* products */
+
+#productsdiv{
+
+  float: left;
+  padding-right: 10px;
+}
+/* navbar */
+
+#logo{
+  font-size: 2.7em;
+  font-style: italic;
+  color: purple;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+  &:hover{
+    color: #bfefff;
+  }
+}
+
+/* background images */
+
+.image-right{
+  float:right;
+  background-color: white;
+  position:relative;
+
+
+}
+.image-bottom{
+  position:absolute;
+  bottom: 0;
+  background-image: url('/assets/pic1arts.jpg');
+  height: 900px;
+  width:900px;
+}
