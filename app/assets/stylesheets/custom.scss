@@ -32,7 +32,7 @@ li{
 }
 #posterimagedesc{
   border-style:double;
-  border-color: purple;
+  border-color: #FF00FF;
   height: 116px;
 }
 
@@ -43,7 +43,7 @@ li{
   width: 100px;
   background-size:contain;
   border-style:double;
-  border-color: purple;
+  border-color: #FF00FF;
 }
 
 #poemimage{
@@ -52,7 +52,7 @@ li{
   width: 100px;
   background-size:contain;
   border-style:double;
-  border-color: purple;
+  border-color: #FF00FF;
 }
 
 #childrenimage{
@@ -61,7 +61,7 @@ li{
   width: 100px;
   background-size:cover;
   border-style:double;
-  border-color: purple;
+  border-color: #FF00FF;
 }
 
 #postcardimage{
@@ -70,7 +70,7 @@ li{
   width: 100px;
   background-size:cover;
   border-style:double;
-  border-color: purple;
+  border-color: #FF00FF;
 }
 /* products */
 
@@ -84,7 +84,7 @@ li{
 #logo{
   font-size: 2.7em;
   font-style: italic;
-  color: purple;
+  color: #FF00FF;
   text-transform: uppercase;
   font-weight: bold;
   float: left;
@@ -94,6 +94,18 @@ li{
   &:hover{
     color: #bfefff;
   }
+}
+
+
+#logoimage{
+
+
+
+  float: left;
+  margin-right: 10px;
+  padding-top: 10px;
+
+  
 }
 
 /* background images */
