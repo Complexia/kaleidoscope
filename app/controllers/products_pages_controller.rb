@@ -10,4 +10,8 @@ class ProductsPagesController < ApplicationController
 
   def product4
   end
+
+  def product5
+  end
+  
 end

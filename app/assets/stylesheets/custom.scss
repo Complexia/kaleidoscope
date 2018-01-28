@@ -23,6 +23,20 @@ li{
   font-weight: bold;
   color: black;
 }
+/* products */
+
+#gallerypics{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+#product1icon{
+  
+
+  padding-right: 40px;
+
+}
 /* divboxes */
 
 #divbox1{
@@ -34,6 +48,7 @@ li{
   border-style:double;
   border-color: #FF00FF;
   height: 116px;
+  float: left;
 }
 
 
@@ -69,6 +84,15 @@ li{
   height:116px;
   width: 100px;
   background-size:cover;
+  border-style:double;
+  border-color: #FF00FF;
+}
+
+#collageimage{
+  background-image: url('https://78.media.tumblr.com/0c8a45570fb67eff445bfc30bfb75a85/tumblr_p39ifxT7wu1x3ccw1o1_540.jpg');
+  height:116px;
+  width: 100px;
+  background-size:contain;
   border-style:double;
   border-color: #FF00FF;
 }
