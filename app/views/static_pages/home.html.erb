@@ -1,4 +1,5 @@
-<div>
+<div class="container">
+<div class="col-md-8">
   <h3>Create your perfect party with a unique gift<h3>
   <h3>Make a compilation of wonderful memories, and make them</br>
       the centre of everyone's attention</h3>
@@ -8,7 +9,23 @@
       come to life</h3>
   <h3>Browse below or click products</h3>
 </div>
+<div class="col-md-4">
+  <span id="olgasimage">
+  </span>
+  <span>
+    <p>&ensp;&ensp;&ensp;&ensp;</p>
+  </span>
+  <span>
+    <div class="col-md-6" id="runningphoto">
 
+
+    </div>
+    <div class="col-md-6">
+      <%= link_to "Russian Info", info_path, class: "btn btn-lg btn-primary", id: "infobutton" %>
+    </div>
+  </span>
+</div>
+</div>
 <div>
   <%= render 'layouts/divone' %>
   <%= render 'layouts/divtwo' %>

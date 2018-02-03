@@ -10,5 +10,11 @@ class StaticPagesController < ApplicationController
 
   def products
   end
-  
+
+  def homepagenew
+  end
+
+  def russianinfo
+  end 
+
 end

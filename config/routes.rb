@@ -12,5 +12,7 @@ Rails.application.routes.draw do
   get '/postcards', to: 'products_pages#product4'
   get '/collage', to: 'products_pages#product5'
   get '/gallery', to: 'gallery#gallery'
+  get '/homepage', to: 'static_pages#homepagenew'
+  get '/info', to: 'static_pages#russianinfo'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

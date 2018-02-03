@@ -5,7 +5,8 @@
 body{
   padding-top: 60px;
   padding-left: 80px;
-  background-color: #2A2A2A;
+  background-image:url('https://78.media.tumblr.com/13de4221450fd6fb4244c6a9040599c0/tumblr_p3kmfvZepq1x3ccw1o1_1280.jpg');
+  background-size: cover;
 }
 h1{
   color: #bfefff;
@@ -16,7 +17,7 @@ h3{
 }
 
 p{
-  color: #d3d3d3;
+  color: white;
 }
 
 li{
@@ -30,9 +31,63 @@ li{
 }
 /* products */
 
+#homepagedivs{
+  padding-top: 100px;
+}
+
+#abcd{
+  clear:both;
+}
+
 #gallerypics{
   padding-top: 50px;
   padding-bottom: 50px;
+
+}
+
+#homepagebackground{
+  height: 100%;
+  width: 100%;
+
+  background-image: url('https://78.media.tumblr.com/9ff211d6eaf3f0b5b332622016222a7a/tumblr_p3knxgnLM91x3ccw1o1_1280.jpg');
+  background-size: cover;
+}
+
+#infobutton{
+
+  background-color: #FF00FF;
+}
+
+#olgasimage{
+  height: 350px;
+  width: 350px;
+  background-image: url('https://78.media.tumblr.com/2e1517637ef5e1a8292c12795d1ca9cb/tumblr_p39pzwxLW91x3ccw1o1_1280.jpg');
+  background-size: cover;
+  float:right;
+  position:relative;
+  padding-bottom: 20px;
+}
+
+#runningphoto{
+  height: 150px;
+  width: 150px;
+  background-image: url('https://78.media.tumblr.com/d52d36f1d19e6c1835fca0ef8893aad9/tumblr_p3kqojMmll1x3ccw1o1_540.gif');
+  background-size: cover;
+  position:relative;
+  padding-bottom: 20px;
+}
+
+img{
+  max-height: 100%;
+  max-width: 100%;
+}
+#russianinfoimage{
+  height: 100%;
+  width: 100%;
+  background-image: url('https://78.media.tumblr.com/6ef2f27f7d53e82b213ad8ff40ddbce7/tumblr_p3krenKD4c1x3ccw1o1_1280.jpg');
+  background-size: cover;
+  position:fixed;
+
 
 }
 
@@ -44,9 +99,17 @@ li{
 }
 /* divboxes */
 
+#postertag{
+  background-color: gray;
+}
+
+
+
+
 #divbox1{
   padding-top: 40px;
   padding-right: 10px;
+  padding-bottom: 20px;
 
 }
 #posterimagedesc{
@@ -58,7 +121,7 @@ li{
 
 
 #posterimage{
-  background-image: url('https://78.media.tumblr.com/11b819b6eff24c60ffe112045f217152/tumblr_p39gz3USCR1x3ccw1o5_1280.jpg');
+  background-image: url('https://78.media.tumblr.com/c195e37919eec1f29cc45430728f49ec/tumblr_p3kpw0sAEK1x3ccw1o1_1280.jpg');
   height:116px;
   width: 100px;
   background-size:contain;
