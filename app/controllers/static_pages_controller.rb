@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
   def home
+    @comment = Comment.create
+    @comments = Comment.all
   end
 
   def about
@@ -15,6 +17,6 @@ class StaticPagesController < ApplicationController
   end
 
   def russianinfo
-  end 
+  end
 
 end
