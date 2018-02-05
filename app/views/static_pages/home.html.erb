@@ -38,6 +38,7 @@
 
 <%= render 'shared/comment_form' %>
 <div>
+  <h1>Comments...</h1>
     <% if @comments.any? %>
       <h3>Comments (<%= @comments.count %>)</h3>
       <ol class="comments">
@@ -45,4 +46,4 @@
       </ol>
 
     <% end %>
-  </div>
+</div>
