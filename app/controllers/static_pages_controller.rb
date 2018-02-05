@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
   def home
     @comment = Comment.create
-    @comments = Comment.all
+    @comments = Comment.all if Comment.any?
   end
 
   def about
